@@ -68,20 +68,20 @@ nav {
   width: 100%;
   max-width: 1200px;
   margin: auto;
-  padding: 12px 5%;
+  padding: 10px 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 nav h2 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin: 0;
 }
 
 nav ul {
   display: flex;
-  gap: 25px;
+  gap: 20px;
   list-style: none;
   align-items: center;
 }
@@ -421,19 +421,17 @@ footer {
   }
   nav {
     flex-wrap: wrap;
-    row-gap: 15px;
-    padding: 15px;
+    padding: 10px 5%;
   }
   nav h2 {
     width: 100%;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   nav ul {
     width: 100%;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+    gap: 15px;
   }
   #theme {
     margin: auto;
@@ -464,14 +462,16 @@ footer {
   .mini {
     grid-template-columns: 1fr;
   }
+  nav {
+    padding: 8px 5%;
+  }
   nav h2 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
   nav ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     width: 100%;
-    text-align: center;
   }
 }
